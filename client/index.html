@@ -7,11 +7,27 @@
 	</head>
 	<body>
 		<!--format html below-->
-		<h1>Hello World</h1>
+         <div class="all">
+            <h1>Twitter</h1>
+            <p></p>
+            <form name="myTweet" class="myForm">
+                <p>
+                <label>Enter Text Here</label><br>
+				<input type="text"  class="box1" id="entry">
+                </p>
+                <p><label>See Result Here</label><br>
+				<textarea class="box2" id="message"></textarea>
+                </p>
+                <p>
+                <input type="submit" class="button" value="Submit" id="submit" onClick="post()">
+                </p>
+		  	</form>
+        </div>
 
 		<script src="components/jquery/dist/jquery.min.js"></script>
 		<script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<!--linking code from main js-->
 		<script src="js/main.js"></script>
+        
 	</body>
 </html>

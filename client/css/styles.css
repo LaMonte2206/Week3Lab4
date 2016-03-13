@@ -1,0 +1,25 @@
+.all {
+    padding-left: 400px;
+    margin-bottom: 100px;
+}
+.all h1{
+    padding-left: 190px;
+}
+
+.box1 {
+    height: 25px;
+    width: 250px;
+    margin-left: 125px;
+}
+
+.box2 {
+    width: 250px;
+    height: 250px;
+    margin-left: 125px;
+}
+.button{
+    margin-left: 215px;
+}
+.all label{
+    margin-left: 200px;
+}
